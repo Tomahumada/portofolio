@@ -1,0 +1,12 @@
+$mapsRedes: (
+    colorH: #00b4d8,
+    botonC: #222,
+    colorF:azure
+);
+
+@each $red,
+$color in $mapsRedes {
+    .#{$red} {
+        background-color: $color;
+    }
+}
