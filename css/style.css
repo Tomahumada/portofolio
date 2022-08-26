@@ -8,10 +8,24 @@
   background-color: azure; }
 
 body {
-  background-image: url(/img/fondo.jpg);
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/506/861/136/light-pink-wallpaper-preview.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+.fondoTrabajo {
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-claro-rosa-pastel_53876-120097.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.cardGeneral {
+  text-align: center; }
+
+.card_img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; }
 
 body::-webkit-scrollbar {
   width: 8px; }
@@ -86,8 +100,16 @@ h2 {
   text-align: center; }
 
 .card {
-  background-color: #f4e285;
-  border: #000 solid 2px; }
+  text-align: center;
+  width: 97%;
+  height: auto;
+  background-color: #ffd166;
+  border: #000 solid 3px;
+  box-shadow: 2px 2px 10px #333;
+  transition-duration: .3s; }
+
+.card:hover {
+  box-shadow: 5px 5px 30px #333; }
 
 .nomCard {
   font-size: 28px;
@@ -137,20 +159,27 @@ footer {
   border-top: #000 solid 2px;
   border-bottom: #000 solid 2px;
   font-weight: 500;
-  margin: 0px 15px;
+  margin: 0px 105px;
   padding: 10px 0;
   font-size: 18px;
   text-align: center; }
 
 .subtituloT {
-  width: 100%;
+  width: 98%;
   font-size: 40px;
   text-align: center;
   text-decoration-line: underline;
   margin-top: 60px; }
 
 .secciones {
+  width: 98%;
+  height: auto;
+  margin: auto;
   padding-bottom: 100px; }
+
+.centroContacto {
+  border-top: 2px solid #222;
+  margin: 60px 40px; }
 
 @media (max-width: 768px) {
   .nav-item {
@@ -166,4 +195,10 @@ footer {
     font-size: 30px; }
   #descripcion {
     font-size: 14px;
-    font-weight: 500; } }
+    font-weight: 500; }
+  .card_img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover; }
+  .secciones {
+    width: 100%; } }
